@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D88D77F196C3D3D00AF5099 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D88D77E196C3D3D00AF5099 /* Cocoa.framework */; };
+		1D88D789196C3D3D00AF5099 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D88D787196C3D3D00AF5099 /* InfoPlist.strings */; };
+		1D88D78B196C3D3D00AF5099 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D88D78A196C3D3D00AF5099 /* main.m */; };
+		1D88D78F196C3D3D00AF5099 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1D88D78D196C3D3D00AF5099 /* Credits.rtf */; };
+		1D88D792196C3D3D00AF5099 /* HW1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D88D791196C3D3D00AF5099 /* HW1AppDelegate.m */; };
+		1D88D795196C3D3D00AF5099 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D88D793196C3D3D00AF5099 /* MainMenu.xib */; };
+		1D88D797196C3D3D00AF5099 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D88D796196C3D3D00AF5099 /* Images.xcassets */; };
+		1D88D79E196C3D3D00AF5099 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D88D79D196C3D3D00AF5099 /* XCTest.framework */; };
+		1D88D79F196C3D3D00AF5099 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D88D77E196C3D3D00AF5099 /* Cocoa.framework */; };
+		1D88D7A7196C3D3D00AF5099 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D88D7A5196C3D3D00AF5099 /* InfoPlist.strings */; };
+		1D88D7A9196C3D3D00AF5099 /* UW_iPhone120_HW1_AncilMarshallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D88D7A8196C3D3D00AF5099 /* UW_iPhone120_HW1_AncilMarshallTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D88D7A0196C3D3D00AF5099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D88D773196C3D3D00AF5099 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D88D77A196C3D3D00AF5099;
+			remoteInfo = "UW-iPhone120-HW1-AncilMarshall";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D88D77B196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UW-iPhone120-HW1-AncilMarshall.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D88D77E196C3D3D00AF5099 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1D88D781196C3D3D00AF5099 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1D88D782196C3D3D00AF5099 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1D88D783196C3D3D00AF5099 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D88D786196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshall-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UW-iPhone120-HW1-AncilMarshall-Info.plist"; sourceTree = "<group>"; };
+		1D88D788196C3D3D00AF5099 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D88D78A196C3D3D00AF5099 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D88D78C196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UW-iPhone120-HW1-AncilMarshall-Prefix.pch"; sourceTree = "<group>"; };
+		1D88D78E196C3D3D00AF5099 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1D88D790196C3D3D00AF5099 /* HW1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HW1AppDelegate.h; sourceTree = "<group>"; };
+		1D88D791196C3D3D00AF5099 /* HW1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW1AppDelegate.m; sourceTree = "<group>"; };
+		1D88D794196C3D3D00AF5099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1D88D796196C3D3D00AF5099 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D88D79C196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UW-iPhone120-HW1-AncilMarshallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D88D79D196C3D3D00AF5099 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1D88D7A4196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UW-iPhone120-HW1-AncilMarshallTests-Info.plist"; sourceTree = "<group>"; };
+		1D88D7A6196C3D3D00AF5099 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D88D7A8196C3D3D00AF5099 /* UW_iPhone120_HW1_AncilMarshallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UW_iPhone120_HW1_AncilMarshallTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D88D778196C3D3D00AF5099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D88D77F196C3D3D00AF5099 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D88D799196C3D3D00AF5099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D88D79F196C3D3D00AF5099 /* Cocoa.framework in Frameworks */,
+				1D88D79E196C3D3D00AF5099 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D88D772196C3D3D00AF5099 = {
+			isa = PBXGroup;
+			children = (
+				1D88D784196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshall */,
+				1D88D7A2196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshallTests */,
+				1D88D77D196C3D3D00AF5099 /* Frameworks */,
+				1D88D77C196C3D3D00AF5099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D88D77C196C3D3D00AF5099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D88D77B196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshall.app */,
+				1D88D79C196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshallTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D88D77D196C3D3D00AF5099 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D88D77E196C3D3D00AF5099 /* Cocoa.framework */,
+				1D88D79D196C3D3D00AF5099 /* XCTest.framework */,
+				1D88D780196C3D3D00AF5099 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D88D780196C3D3D00AF5099 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D88D781196C3D3D00AF5099 /* AppKit.framework */,
+				1D88D782196C3D3D00AF5099 /* CoreData.framework */,
+				1D88D783196C3D3D00AF5099 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1D88D784196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshall */ = {
+			isa = PBXGroup;
+			children = (
+				1D88D790196C3D3D00AF5099 /* HW1AppDelegate.h */,
+				1D88D791196C3D3D00AF5099 /* HW1AppDelegate.m */,
+				1D88D793196C3D3D00AF5099 /* MainMenu.xib */,
+				1D88D796196C3D3D00AF5099 /* Images.xcassets */,
+				1D88D785196C3D3D00AF5099 /* Supporting Files */,
+			);
+			path = "UW-iPhone120-HW1-AncilMarshall";
+			sourceTree = "<group>";
+		};
+		1D88D785196C3D3D00AF5099 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D88D786196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshall-Info.plist */,
+				1D88D787196C3D3D00AF5099 /* InfoPlist.strings */,
+				1D88D78A196C3D3D00AF5099 /* main.m */,
+				1D88D78C196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshall-Prefix.pch */,
+				1D88D78D196C3D3D00AF5099 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D88D7A2196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshallTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D88D7A8196C3D3D00AF5099 /* UW_iPhone120_HW1_AncilMarshallTests.m */,
+				1D88D7A3196C3D3D00AF5099 /* Supporting Files */,
+			);
+			path = "UW-iPhone120-HW1-AncilMarshallTests";
+			sourceTree = "<group>";
+		};
+		1D88D7A3196C3D3D00AF5099 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D88D7A4196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshallTests-Info.plist */,
+				1D88D7A5196C3D3D00AF5099 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D88D77A196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D88D7AC196C3D3D00AF5099 /* Build configuration list for PBXNativeTarget "UW-iPhone120-HW1-AncilMarshall" */;
+			buildPhases = (
+				1D88D777196C3D3D00AF5099 /* Sources */,
+				1D88D778196C3D3D00AF5099 /* Frameworks */,
+				1D88D779196C3D3D00AF5099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UW-iPhone120-HW1-AncilMarshall";
+			productName = "UW-iPhone120-HW1-AncilMarshall";
+			productReference = 1D88D77B196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D88D79B196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D88D7AF196C3D3D00AF5099 /* Build configuration list for PBXNativeTarget "UW-iPhone120-HW1-AncilMarshallTests" */;
+			buildPhases = (
+				1D88D798196C3D3D00AF5099 /* Sources */,
+				1D88D799196C3D3D00AF5099 /* Frameworks */,
+				1D88D79A196C3D3D00AF5099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D88D7A1196C3D3D00AF5099 /* PBXTargetDependency */,
+			);
+			name = "UW-iPhone120-HW1-AncilMarshallTests";
+			productName = "UW-iPhone120-HW1-AncilMarshallTests";
+			productReference = 1D88D79C196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D88D773196C3D3D00AF5099 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HW1;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ancil Marshall";
+				TargetAttributes = {
+					1D88D79B196C3D3D00AF5099 = {
+						TestTargetID = 1D88D77A196C3D3D00AF5099;
+					};
+				};
+			};
+			buildConfigurationList = 1D88D776196C3D3D00AF5099 /* Build configuration list for PBXProject "UW-iPhone120-HW1-AncilMarshall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D88D772196C3D3D00AF5099;
+			productRefGroup = 1D88D77C196C3D3D00AF5099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D88D77A196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshall */,
+				1D88D79B196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D88D779196C3D3D00AF5099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D88D789196C3D3D00AF5099 /* InfoPlist.strings in Resources */,
+				1D88D797196C3D3D00AF5099 /* Images.xcassets in Resources */,
+				1D88D78F196C3D3D00AF5099 /* Credits.rtf in Resources */,
+				1D88D795196C3D3D00AF5099 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D88D79A196C3D3D00AF5099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D88D7A7196C3D3D00AF5099 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D88D777196C3D3D00AF5099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D88D78B196C3D3D00AF5099 /* main.m in Sources */,
+				1D88D792196C3D3D00AF5099 /* HW1AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D88D798196C3D3D00AF5099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D88D7A9196C3D3D00AF5099 /* UW_iPhone120_HW1_AncilMarshallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D88D7A1196C3D3D00AF5099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D88D77A196C3D3D00AF5099 /* UW-iPhone120-HW1-AncilMarshall */;
+			targetProxy = 1D88D7A0196C3D3D00AF5099 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D88D787196C3D3D00AF5099 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D88D788196C3D3D00AF5099 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D88D78D196C3D3D00AF5099 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D88D78E196C3D3D00AF5099 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1D88D793196C3D3D00AF5099 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D88D794196C3D3D00AF5099 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1D88D7A5196C3D3D00AF5099 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D88D7A6196C3D3D00AF5099 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D88D7AA196C3D3D00AF5099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1D88D7AB196C3D3D00AF5099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1D88D7AD196C3D3D00AF5099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UW-iPhone120-HW1-AncilMarshall/UW-iPhone120-HW1-AncilMarshall-Prefix.pch";
+				INFOPLIST_FILE = "UW-iPhone120-HW1-AncilMarshall/UW-iPhone120-HW1-AncilMarshall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D88D7AE196C3D3D00AF5099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UW-iPhone120-HW1-AncilMarshall/UW-iPhone120-HW1-AncilMarshall-Prefix.pch";
+				INFOPLIST_FILE = "UW-iPhone120-HW1-AncilMarshall/UW-iPhone120-HW1-AncilMarshall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1D88D7B0196C3D3D00AF5099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UW-iPhone120-HW1-AncilMarshall.app/Contents/MacOS/UW-iPhone120-HW1-AncilMarshall";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UW-iPhone120-HW1-AncilMarshall/UW-iPhone120-HW1-AncilMarshall-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UW-iPhone120-HW1-AncilMarshallTests/UW-iPhone120-HW1-AncilMarshallTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1D88D7B1196C3D3D00AF5099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UW-iPhone120-HW1-AncilMarshall.app/Contents/MacOS/UW-iPhone120-HW1-AncilMarshall";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UW-iPhone120-HW1-AncilMarshall/UW-iPhone120-HW1-AncilMarshall-Prefix.pch";
+				INFOPLIST_FILE = "UW-iPhone120-HW1-AncilMarshallTests/UW-iPhone120-HW1-AncilMarshallTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D88D776196C3D3D00AF5099 /* Build configuration list for PBXProject "UW-iPhone120-HW1-AncilMarshall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D88D7AA196C3D3D00AF5099 /* Debug */,
+				1D88D7AB196C3D3D00AF5099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D88D7AC196C3D3D00AF5099 /* Build configuration list for PBXNativeTarget "UW-iPhone120-HW1-AncilMarshall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D88D7AD196C3D3D00AF5099 /* Debug */,
+				1D88D7AE196C3D3D00AF5099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D88D7AF196C3D3D00AF5099 /* Build configuration list for PBXNativeTarget "UW-iPhone120-HW1-AncilMarshallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D88D7B0196C3D3D00AF5099 /* Debug */,
+				1D88D7B1196C3D3D00AF5099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D88D773196C3D3D00AF5099 /* Project object */;
+}
