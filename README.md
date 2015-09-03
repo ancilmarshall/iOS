@@ -37,7 +37,9 @@ Here are topics from the thrid and final course in the University of Washington'
 
 ##### Multithreading, GCD, Queues
 ##### Networking
-- **NetworkDemo** UW3: Ephemeral, foreground NSURLSession, with data task. Handles network string encoding conversions.
+- **NetworkingDemo** UW3: Ephemeral, foreground NSURLSession, with data task. Handles network string encoding conversions.
+- **NetworkingExercise** UW3: Constructing an NSMutableRequst. Using NSNotifications.
+- **NSURLComponentsDemo** UW3: NSURLComponent and NSURLQueryItem.
 
 ##### Core Data
 ##### App Life Cycle

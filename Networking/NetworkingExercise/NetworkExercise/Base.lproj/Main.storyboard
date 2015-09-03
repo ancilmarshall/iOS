@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6750" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2BG-c6-dZa">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6735"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Headers-->
+        <scene sceneID="BNc-jX-4cJ">
+            <objects>
+                <tableViewController id="l8U-jw-NtE" customClass="ResponseHeadersViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="n27-We-dHf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="headerCell" textLabel="asy-fx-6A5" detailTextLabel="OoE-4Z-Fqk" style="IBUITableViewCellStyleValue1" id="cZm-7O-aBS">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cZm-7O-aBS" id="jqf-Nm-Qb7">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="asy-fx-6A5">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OoE-4Z-Fqk">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="l8U-jw-NtE" id="EVv-Mp-UMv"/>
+                            <outlet property="delegate" destination="l8U-jw-NtE" id="WM4-9B-rn1"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Headers" id="y2R-sl-zJw"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0wG-zy-p6F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1146" y="668"/>
+        </scene>
+        <!--Contents-->
+        <scene sceneID="5ng-lz-7ib">
+            <objects>
+                <viewController id="rOq-ym-T3q" customClass="ResponseContentsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hl8-6d-bfN"/>
+                        <viewControllerLayoutGuide type="bottom" id="qN8-LY-0eb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cEf-fT-r0q">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jsJ-UN-X0A">
+                                <rect key="frame" x="0.0" y="20" width="600" height="523"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qN8-LY-0eb" firstAttribute="top" secondItem="jsJ-UN-X0A" secondAttribute="bottom" constant="8" id="CyH-NY-tMO"/>
+                            <constraint firstAttribute="trailing" secondItem="jsJ-UN-X0A" secondAttribute="trailing" id="bob-V7-cu5"/>
+                            <constraint firstItem="jsJ-UN-X0A" firstAttribute="leading" secondItem="cEf-fT-r0q" secondAttribute="leading" id="kXw-ke-HP8"/>
+                            <constraint firstItem="jsJ-UN-X0A" firstAttribute="top" secondItem="hl8-6d-bfN" secondAttribute="bottom" id="r8r-Gk-2Oj"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Contents" id="bsc-LF-dtM"/>
+                    <connections>
+                        <outlet property="contentsTextView" destination="jsJ-UN-X0A" id="izp-Nj-XOu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0bN-27-of0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1146" y="1449"/>
+        </scene>
+        <!--Request-->
+        <scene sceneID="u3J-e5-wGw">
+            <objects>
+                <viewController id="eUE-fj-zUC" customClass="RequestViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="B8b-SM-f4V"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Re-pL-gkG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BeJ-Sk-zA2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JQy-Fz-58X">
+                                <rect key="frame" x="0.0" y="389" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="eUE-fj-zUC" id="Q7k-SU-fQL"/>
+                                    <outlet property="delegate" destination="eUE-fj-zUC" id="VqK-8V-5vQ"/>
+                                </connections>
+                            </pickerView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="URL" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nAD-cI-ys5">
+                                <rect key="frame" x="16" y="351" width="503" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="URL"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Htv-V8-tHN">
+                                <rect key="frame" x="527" y="350" width="57" height="30"/>
+                                <state key="normal" title="Request">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendNetworkRequest:" destination="eUE-fj-zUC" eventType="touchUpInside" id="wCQ-iS-Fao"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Htv-V8-tHN" firstAttribute="leading" secondItem="nAD-cI-ys5" secondAttribute="trailing" constant="8" symbolic="YES" id="JSG-7n-MOy"/>
+                            <constraint firstItem="Htv-V8-tHN" firstAttribute="trailing" secondItem="BeJ-Sk-zA2" secondAttribute="trailingMargin" id="OAW-xf-rDY"/>
+                            <constraint firstAttribute="trailing" secondItem="JQy-Fz-58X" secondAttribute="trailing" id="OAd-Xf-hft"/>
+                            <constraint firstItem="nAD-cI-ys5" firstAttribute="baseline" secondItem="Htv-V8-tHN" secondAttribute="baseline" id="ebB-jL-DeD"/>
+                            <constraint firstItem="JQy-Fz-58X" firstAttribute="leading" secondItem="BeJ-Sk-zA2" secondAttribute="leading" id="nxc-aT-e9m"/>
+                            <constraint firstItem="nAD-cI-ys5" firstAttribute="leading" secondItem="BeJ-Sk-zA2" secondAttribute="leadingMargin" id="oZj-jm-Yrm"/>
+                            <constraint firstItem="JQy-Fz-58X" firstAttribute="top" secondItem="nAD-cI-ys5" secondAttribute="bottom" constant="8" id="rVA-G6-YCw"/>
+                            <constraint firstItem="0Re-pL-gkG" firstAttribute="top" secondItem="JQy-Fz-58X" secondAttribute="bottom" id="zRo-cZ-mqy"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Request" id="v5S-vF-kTA"/>
+                    <connections>
+                        <outlet property="requestTypePicker" destination="JQy-Fz-58X" id="scw-1i-zEf"/>
+                        <outlet property="requestURLField" destination="nAD-cI-ys5" id="FS0-6U-X91"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eXt-v9-ddr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1146" y="-125"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="DDI-Xr-34R">
+            <objects>
+                <tabBarController id="2BG-c6-dZa" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="T0x-uL-OM0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="eUE-fj-zUC" kind="relationship" relationship="viewControllers" id="LFA-cu-XJ0"/>
+                        <segue destination="l8U-jw-NtE" kind="relationship" relationship="viewControllers" id="4eV-Jo-8FS"/>
+                        <segue destination="rOq-ym-T3q" kind="relationship" relationship="viewControllers" id="C4i-XD-keC"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gcj-4h-ihF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="353" y="668"/>
+        </scene>
+    </scenes>
+</document>
