@@ -36,19 +36,35 @@ These topics are taken from the second course in the University of Washington's 
 ## Advanced iOS
 Here are topics from the thrid and final course in the University of Washington's (UW) series on iOS and Mac Development. Also presented here are lessons and homeworks from the French MOOC (FUN) spring course on iOS Development
 
-##### Multithreading, GCD, Queues
+##### Multithreading, GCD, Queues, Notifications
+- **OperationViewer**: UW3 Demo - 
+- **KVODemo**: UW3 Demo - 
+- **NotificationDemo: UW3 Demo - 
+
 ##### Networking
 - **NetworkingDemo** UW3: Ephemeral, foreground NSURLSession, with data task. Handles network string encoding conversions.
 - **NetworkingExercise** UW3: Constructing an NSMutableRequst. Using NSNotifications.
 - **NSURLComponentsDemo** UW3: NSURLComponent and NSURLQueryItem.
 
 ##### Core Data
+- **CoreDataDemo**: UW3 Demo - 
+- **CoreDataColorsDemo**: UW3 Demo - 
+- **CoreDataBirthdaysDemo**: UW3 Demo -
+- **CoreDataConcurrencyDemo**: UW3 Demo - 
+
 ##### App Life Cycle
+- **OperationsBackgroundingExcercise**: UW3 Exercise - 
+
 ##### Parsing JSON, XML
 ##### Calendar and AddressBook
 ##### Audio and Video
 ##### Sensors
 ##### Extensions
+- **AppGroupDemo**: UW3 Demo - 
+- **ExtensionsDemo**: UW3 Demo - 
+- **ExtensionsExercise**: UW3 Exercise - 
+- **URLSchemeDemo**: UW3 Demo - 
+
 ##### Apple Store
 ##### iCloud
 ##### CloudKit

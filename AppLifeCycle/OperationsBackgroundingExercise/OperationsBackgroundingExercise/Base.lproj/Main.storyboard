@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6750" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6735"/>
+    </dependencies>
+    <scenes>
+        <!--Operations View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="OperationsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="p8B-U1-exI">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OPERATION COUNT LABEL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F62-YV-Vgu">
+                                <rect key="frame" x="191" y="318" width="218" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1005" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GpJ-kK-Io7">
+                                <rect key="frame" x="285" y="347" width="30" height="30"/>
+                                <state key="normal" title="+ 5">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addOperations:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dMU-xY-y0O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1010" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HA1-RF-iJ4">
+                                <rect key="frame" x="323" y="347" width="31" height="30"/>
+                                <state key="normal" title="+ 10">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addOperations:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5tD-Mp-uYx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="im8-Wu-z7A">
+                                <rect key="frame" x="247" y="347" width="30" height="30"/>
+                                <state key="normal" title="+1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addOperations:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PPD-OM-3yG"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dgr-YV-3eo">
+                                <rect key="frame" x="190" y="385" width="221" height="29"/>
+                                <subviews>
+                                    <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="6" translatesAutoresizingMaskIntoConstraints="NO" id="st0-7u-rar">
+                                        <rect key="frame" x="127" y="0.0" width="94" height="29"/>
+                                        <connections>
+                                            <action selector="changeConcurrentOperationCount:" destination="BYZ-38-t0r" eventType="valueChanged" id="Tdx-EL-V5U"/>
+                                        </connections>
+                                    </stepper>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CONCURRENT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T22-JI-zpo">
+                                        <rect key="frame" x="0.0" y="4" width="119" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="st0-7u-rar" firstAttribute="top" secondItem="dgr-YV-3eo" secondAttribute="top" id="20A-N0-JXt"/>
+                                    <constraint firstItem="st0-7u-rar" firstAttribute="leading" secondItem="T22-JI-zpo" secondAttribute="trailing" constant="8" id="Dug-lv-sG5"/>
+                                    <constraint firstAttribute="trailing" secondItem="st0-7u-rar" secondAttribute="trailing" id="IPG-XZ-Ag0"/>
+                                    <constraint firstItem="T22-JI-zpo" firstAttribute="centerY" secondItem="st0-7u-rar" secondAttribute="centerY" id="d4L-TH-hY1"/>
+                                    <constraint firstItem="T22-JI-zpo" firstAttribute="leading" secondItem="dgr-YV-3eo" secondAttribute="leading" id="eux-sA-osC"/>
+                                    <constraint firstAttribute="bottom" secondItem="st0-7u-rar" secondAttribute="bottom" id="lNF-Cf-6A4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HA1-RF-iJ4" firstAttribute="baseline" secondItem="GpJ-kK-Io7" secondAttribute="baseline" id="CJz-lQ-M8e"/>
+                            <constraint firstAttribute="centerX" secondItem="F62-YV-Vgu" secondAttribute="centerX" id="Jix-FY-84W"/>
+                            <constraint firstAttribute="centerY" secondItem="p8B-U1-exI" secondAttribute="centerY" id="Q0e-JY-cw5"/>
+                            <constraint firstAttribute="centerX" secondItem="dgr-YV-3eo" secondAttribute="centerX" id="QdO-5Z-XSO"/>
+                            <constraint firstItem="dgr-YV-3eo" firstAttribute="top" secondItem="GpJ-kK-Io7" secondAttribute="bottom" constant="8" id="RWN-gT-MjS"/>
+                            <constraint firstItem="F62-YV-Vgu" firstAttribute="top" secondItem="p8B-U1-exI" secondAttribute="bottom" constant="8" id="Rcf-vm-1nr"/>
+                            <constraint firstItem="HA1-RF-iJ4" firstAttribute="leading" secondItem="GpJ-kK-Io7" secondAttribute="trailing" constant="8" id="RrO-PK-gy2"/>
+                            <constraint firstItem="im8-Wu-z7A" firstAttribute="baseline" secondItem="GpJ-kK-Io7" secondAttribute="baseline" id="WUe-bD-RTb"/>
+                            <constraint firstItem="GpJ-kK-Io7" firstAttribute="leading" secondItem="im8-Wu-z7A" secondAttribute="trailing" constant="8" id="aLl-su-675"/>
+                            <constraint firstAttribute="centerX" secondItem="GpJ-kK-Io7" secondAttribute="centerX" id="blw-GV-r17"/>
+                            <constraint firstAttribute="centerX" secondItem="p8B-U1-exI" secondAttribute="centerX" id="dZt-Nv-NH8"/>
+                            <constraint firstItem="GpJ-kK-Io7" firstAttribute="top" secondItem="F62-YV-Vgu" secondAttribute="bottom" constant="8" id="kOc-tG-qx2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicatorView" destination="p8B-U1-exI" id="MMf-Zt-ylc"/>
+                        <outlet property="concurrentOperationsLabel" destination="T22-JI-zpo" id="9cd-qo-YoO"/>
+                        <outlet property="operationCountLabel" destination="F62-YV-Vgu" id="XId-u9-7lh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
