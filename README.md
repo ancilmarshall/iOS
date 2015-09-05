@@ -4,8 +4,9 @@ My iOS reference source code. This repo contains homeworks and projects from my 
 ## Basics and Getting Started
 The examples in this section are from the first course of the University of Washington's (UW) series on iOS and Mac Development, online tutorials and demos, including Stanford's iOS7 and iOS8 class.
 
-##### NSString, NSArray, NSNumber, NSDictionary, NSDate, NSNumberFormatter, etc
-- NSNumberFormatter: UW1-HW1. Use NSNumberFormatter, NSSpeechSynthesizer, NSLevelIndicator
+##### General
+- **NSNumberFormatter**: Homework. Use NSNumberFormatter, NSSpeechSynthesizer, NSLevelIndicator
+- **TextViewKeyboardResize**: Tutorial - Dynamically resize a custom textview, adjust when keyboard appears.
 
 ##### Delegation, Protocols, Extensions
 - TodoList: UW1-HW2. Add/delete items from a todo list. Use delegates for model change events
