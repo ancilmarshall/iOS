@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D0D0CD419A6910500319389 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0D0CD319A6910500319389 /* Utility.m */; };
+		1D0D0CD819A6914D00319389 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0D0CD719A6914D00319389 /* Item.m */; };
+		1D0D0CDE19A6925E00319389 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0D0CDD19A6925E00319389 /* Game.m */; };
+		1D23AFA71998332D007572A4 /* HW5ArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D23AFA61998332D007572A4 /* HW5ArtView.m */; };
+		1D57B5F71997B3B600CD3DBF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D57B5F61997B3B600CD3DBF /* Cocoa.framework */; };
+		1D57B6011997B3B600CD3DBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D57B5FF1997B3B600CD3DBF /* InfoPlist.strings */; };
+		1D57B6031997B3B600CD3DBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D57B6021997B3B600CD3DBF /* main.m */; };
+		1D57B6071997B3B600CD3DBF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1D57B6051997B3B600CD3DBF /* Credits.rtf */; };
+		1D57B60A1997B3B600CD3DBF /* HW5AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D57B6091997B3B600CD3DBF /* HW5AppDelegate.m */; };
+		1D57B60D1997B3B600CD3DBF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D57B60B1997B3B600CD3DBF /* MainMenu.xib */; };
+		1D57B60F1997B3B600CD3DBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D57B60E1997B3B600CD3DBF /* Images.xcassets */; };
+		1D57B6161997B3B600CD3DBF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D57B6151997B3B600CD3DBF /* XCTest.framework */; };
+		1D57B6171997B3B600CD3DBF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D57B5F61997B3B600CD3DBF /* Cocoa.framework */; };
+		1D57B61F1997B3B600CD3DBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D57B61D1997B3B600CD3DBF /* InfoPlist.strings */; };
+		1D57B6211997B3B600CD3DBF /* HW5_AncilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D57B6201997B3B600CD3DBF /* HW5_AncilTests.m */; };
+		1D57B62D1997B58900CD3DBF /* HW5WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D57B62B1997B58900CD3DBF /* HW5WindowController.m */; };
+		1D57B62E1997B58900CD3DBF /* HW5WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D57B62C1997B58900CD3DBF /* HW5WindowController.xib */; };
+		1D57B6321997BA9E00CD3DBF /* HW5GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D57B6301997BA9E00CD3DBF /* HW5GraphViewController.m */; };
+		1D57B6331997BA9E00CD3DBF /* HW5GraphViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D57B6311997BA9E00CD3DBF /* HW5GraphViewController.xib */; };
+		1D57B6361997BB8D00CD3DBF /* HW5GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D57B6351997BB8D00CD3DBF /* HW5GraphView.m */; };
+		1D57B6391997CDB800CD3DBF /* HW5ShapesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D57B6381997CDB800CD3DBF /* HW5ShapesView.m */; };
+		1D57B63D1997CDCE00CD3DBF /* HW5ShapesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D57B63B1997CDCE00CD3DBF /* HW5ShapesViewController.m */; };
+		1D57B63E1997CDCE00CD3DBF /* HW5ShapesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D57B63C1997CDCE00CD3DBF /* HW5ShapesViewController.xib */; };
+		1D57B6491997D96E00CD3DBF /* HW5ArtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D57B6471997D96E00CD3DBF /* HW5ArtViewController.m */; };
+		1D57B64A1997D96E00CD3DBF /* HW5ArtViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D57B6481997D96E00CD3DBF /* HW5ArtViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D57B6181997B3B600CD3DBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D57B5EB1997B3B600CD3DBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D57B5F21997B3B600CD3DBF;
+			remoteInfo = HW5_Ancil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D0D0CD219A6910500319389 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		1D0D0CD319A6910500319389 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		1D0D0CD619A6914D00319389 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		1D0D0CD719A6914D00319389 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		1D0D0CDC19A6925E00319389 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		1D0D0CDD19A6925E00319389 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		1D23AFA51998332D007572A4 /* HW5ArtView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HW5ArtView.h; sourceTree = "<group>"; };
+		1D23AFA61998332D007572A4 /* HW5ArtView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HW5ArtView.m; sourceTree = "<group>"; };
+		1D57B5F31997B3B600CD3DBF /* HW5_Ancil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW5_Ancil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D57B5F61997B3B600CD3DBF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1D57B5F91997B3B600CD3DBF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1D57B5FA1997B3B600CD3DBF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1D57B5FB1997B3B600CD3DBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D57B5FE1997B3B600CD3DBF /* HW5_Ancil-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HW5_Ancil-Info.plist"; sourceTree = "<group>"; };
+		1D57B6001997B3B600CD3DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D57B6021997B3B600CD3DBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D57B6041997B3B600CD3DBF /* HW5_Ancil-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HW5_Ancil-Prefix.pch"; sourceTree = "<group>"; };
+		1D57B6061997B3B600CD3DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1D57B6081997B3B600CD3DBF /* HW5AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HW5AppDelegate.h; sourceTree = "<group>"; };
+		1D57B6091997B3B600CD3DBF /* HW5AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW5AppDelegate.m; sourceTree = "<group>"; };
+		1D57B60C1997B3B600CD3DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1D57B60E1997B3B600CD3DBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D57B6141997B3B600CD3DBF /* HW5_AncilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW5_AncilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D57B6151997B3B600CD3DBF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1D57B61C1997B3B600CD3DBF /* HW5_AncilTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HW5_AncilTests-Info.plist"; sourceTree = "<group>"; };
+		1D57B61E1997B3B600CD3DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D57B6201997B3B600CD3DBF /* HW5_AncilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW5_AncilTests.m; sourceTree = "<group>"; };
+		1D57B62A1997B58900CD3DBF /* HW5WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HW5WindowController.h; sourceTree = "<group>"; };
+		1D57B62B1997B58900CD3DBF /* HW5WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HW5WindowController.m; sourceTree = "<group>"; };
+		1D57B62C1997B58900CD3DBF /* HW5WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HW5WindowController.xib; sourceTree = "<group>"; };
+		1D57B62F1997BA9E00CD3DBF /* HW5GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HW5GraphViewController.h; sourceTree = "<group>"; };
+		1D57B6301997BA9E00CD3DBF /* HW5GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HW5GraphViewController.m; sourceTree = "<group>"; };
+		1D57B6311997BA9E00CD3DBF /* HW5GraphViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HW5GraphViewController.xib; sourceTree = "<group>"; };
+		1D57B6341997BB8D00CD3DBF /* HW5GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HW5GraphView.h; sourceTree = "<group>"; };
+		1D57B6351997BB8D00CD3DBF /* HW5GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HW5GraphView.m; sourceTree = "<group>"; };
+		1D57B6371997CDB800CD3DBF /* HW5ShapesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HW5ShapesView.h; sourceTree = "<group>"; };
+		1D57B6381997CDB800CD3DBF /* HW5ShapesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HW5ShapesView.m; sourceTree = "<group>"; };
+		1D57B63A1997CDCE00CD3DBF /* HW5ShapesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HW5ShapesViewController.h; sourceTree = "<group>"; };
+		1D57B63B1997CDCE00CD3DBF /* HW5ShapesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HW5ShapesViewController.m; sourceTree = "<group>"; };
+		1D57B63C1997CDCE00CD3DBF /* HW5ShapesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HW5ShapesViewController.xib; sourceTree = "<group>"; };
+		1D57B6461997D96E00CD3DBF /* HW5ArtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HW5ArtViewController.h; sourceTree = "<group>"; };
+		1D57B6471997D96E00CD3DBF /* HW5ArtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HW5ArtViewController.m; sourceTree = "<group>"; };
+		1D57B6481997D96E00CD3DBF /* HW5ArtViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HW5ArtViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D57B5F01997B3B600CD3DBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D57B5F71997B3B600CD3DBF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D57B6111997B3B600CD3DBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D57B6171997B3B600CD3DBF /* Cocoa.framework in Frameworks */,
+				1D57B6161997B3B600CD3DBF /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D0D0CD119A6910500319389 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1D0D0CD219A6910500319389 /* Utility.h */,
+				1D0D0CD319A6910500319389 /* Utility.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		1D0D0CD519A6914D00319389 /* GameModel */ = {
+			isa = PBXGroup;
+			children = (
+				1D0D0CD619A6914D00319389 /* Item.h */,
+				1D0D0CD719A6914D00319389 /* Item.m */,
+				1D0D0CDC19A6925E00319389 /* Game.h */,
+				1D0D0CDD19A6925E00319389 /* Game.m */,
+			);
+			path = GameModel;
+			sourceTree = "<group>";
+		};
+		1D57B5EA1997B3B600CD3DBF = {
+			isa = PBXGroup;
+			children = (
+				1D57B5FC1997B3B600CD3DBF /* HW5_Ancil */,
+				1D57B61A1997B3B600CD3DBF /* HW5_AncilTests */,
+				1D57B5F51997B3B600CD3DBF /* Frameworks */,
+				1D57B5F41997B3B600CD3DBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D57B5F41997B3B600CD3DBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D57B5F31997B3B600CD3DBF /* HW5_Ancil.app */,
+				1D57B6141997B3B600CD3DBF /* HW5_AncilTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D57B5F51997B3B600CD3DBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D57B5F61997B3B600CD3DBF /* Cocoa.framework */,
+				1D57B6151997B3B600CD3DBF /* XCTest.framework */,
+				1D57B5F81997B3B600CD3DBF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D57B5F81997B3B600CD3DBF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D57B5F91997B3B600CD3DBF /* AppKit.framework */,
+				1D57B5FA1997B3B600CD3DBF /* CoreData.framework */,
+				1D57B5FB1997B3B600CD3DBF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1D57B5FC1997B3B600CD3DBF /* HW5_Ancil */ = {
+			isa = PBXGroup;
+			children = (
+				1D0D0CD519A6914D00319389 /* GameModel */,
+				1D0D0CD119A6910500319389 /* Utility */,
+				1D57B6081997B3B600CD3DBF /* HW5AppDelegate.h */,
+				1D57B6091997B3B600CD3DBF /* HW5AppDelegate.m */,
+				1D57B60B1997B3B600CD3DBF /* MainMenu.xib */,
+				1D57B62A1997B58900CD3DBF /* HW5WindowController.h */,
+				1D57B62B1997B58900CD3DBF /* HW5WindowController.m */,
+				1D57B62C1997B58900CD3DBF /* HW5WindowController.xib */,
+				1D57B63F1997CDF600CD3DBF /* Graphs */,
+				1D57B6401997CE0100CD3DBF /* Shapes */,
+				1D57B64B1997D97D00CD3DBF /* Art */,
+				1D57B60E1997B3B600CD3DBF /* Images.xcassets */,
+				1D57B5FD1997B3B600CD3DBF /* Supporting Files */,
+			);
+			path = HW5_Ancil;
+			sourceTree = "<group>";
+		};
+		1D57B5FD1997B3B600CD3DBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D57B5FE1997B3B600CD3DBF /* HW5_Ancil-Info.plist */,
+				1D57B5FF1997B3B600CD3DBF /* InfoPlist.strings */,
+				1D57B6021997B3B600CD3DBF /* main.m */,
+				1D57B6041997B3B600CD3DBF /* HW5_Ancil-Prefix.pch */,
+				1D57B6051997B3B600CD3DBF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D57B61A1997B3B600CD3DBF /* HW5_AncilTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D57B6201997B3B600CD3DBF /* HW5_AncilTests.m */,
+				1D57B61B1997B3B600CD3DBF /* Supporting Files */,
+			);
+			path = HW5_AncilTests;
+			sourceTree = "<group>";
+		};
+		1D57B61B1997B3B600CD3DBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D57B61C1997B3B600CD3DBF /* HW5_AncilTests-Info.plist */,
+				1D57B61D1997B3B600CD3DBF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D57B63F1997CDF600CD3DBF /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				1D57B62F1997BA9E00CD3DBF /* HW5GraphViewController.h */,
+				1D57B6301997BA9E00CD3DBF /* HW5GraphViewController.m */,
+				1D57B6311997BA9E00CD3DBF /* HW5GraphViewController.xib */,
+				1D57B6341997BB8D00CD3DBF /* HW5GraphView.h */,
+				1D57B6351997BB8D00CD3DBF /* HW5GraphView.m */,
+			);
+			name = Graphs;
+			sourceTree = "<group>";
+		};
+		1D57B6401997CE0100CD3DBF /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				1D57B63A1997CDCE00CD3DBF /* HW5ShapesViewController.h */,
+				1D57B63B1997CDCE00CD3DBF /* HW5ShapesViewController.m */,
+				1D57B63C1997CDCE00CD3DBF /* HW5ShapesViewController.xib */,
+				1D57B6371997CDB800CD3DBF /* HW5ShapesView.h */,
+				1D57B6381997CDB800CD3DBF /* HW5ShapesView.m */,
+			);
+			name = Shapes;
+			sourceTree = "<group>";
+		};
+		1D57B64B1997D97D00CD3DBF /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				1D57B6461997D96E00CD3DBF /* HW5ArtViewController.h */,
+				1D57B6471997D96E00CD3DBF /* HW5ArtViewController.m */,
+				1D57B6481997D96E00CD3DBF /* HW5ArtViewController.xib */,
+				1D23AFA51998332D007572A4 /* HW5ArtView.h */,
+				1D23AFA61998332D007572A4 /* HW5ArtView.m */,
+			);
+			name = Art;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D57B5F21997B3B600CD3DBF /* HW5_Ancil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D57B6241997B3B600CD3DBF /* Build configuration list for PBXNativeTarget "HW5_Ancil" */;
+			buildPhases = (
+				1D57B5EF1997B3B600CD3DBF /* Sources */,
+				1D57B5F01997B3B600CD3DBF /* Frameworks */,
+				1D57B5F11997B3B600CD3DBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HW5_Ancil;
+			productName = HW5_Ancil;
+			productReference = 1D57B5F31997B3B600CD3DBF /* HW5_Ancil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D57B6131997B3B600CD3DBF /* HW5_AncilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D57B6271997B3B600CD3DBF /* Build configuration list for PBXNativeTarget "HW5_AncilTests" */;
+			buildPhases = (
+				1D57B6101997B3B600CD3DBF /* Sources */,
+				1D57B6111997B3B600CD3DBF /* Frameworks */,
+				1D57B6121997B3B600CD3DBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D57B6191997B3B600CD3DBF /* PBXTargetDependency */,
+			);
+			name = HW5_AncilTests;
+			productName = HW5_AncilTests;
+			productReference = 1D57B6141997B3B600CD3DBF /* HW5_AncilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D57B5EB1997B3B600CD3DBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HW5;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ancil Marshall";
+				TargetAttributes = {
+					1D57B6131997B3B600CD3DBF = {
+						TestTargetID = 1D57B5F21997B3B600CD3DBF;
+					};
+				};
+			};
+			buildConfigurationList = 1D57B5EE1997B3B600CD3DBF /* Build configuration list for PBXProject "HW5_Ancil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D57B5EA1997B3B600CD3DBF;
+			productRefGroup = 1D57B5F41997B3B600CD3DBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D57B5F21997B3B600CD3DBF /* HW5_Ancil */,
+				1D57B6131997B3B600CD3DBF /* HW5_AncilTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D57B5F11997B3B600CD3DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D57B6331997BA9E00CD3DBF /* HW5GraphViewController.xib in Resources */,
+				1D57B6011997B3B600CD3DBF /* InfoPlist.strings in Resources */,
+				1D57B62E1997B58900CD3DBF /* HW5WindowController.xib in Resources */,
+				1D57B64A1997D96E00CD3DBF /* HW5ArtViewController.xib in Resources */,
+				1D57B60F1997B3B600CD3DBF /* Images.xcassets in Resources */,
+				1D57B6071997B3B600CD3DBF /* Credits.rtf in Resources */,
+				1D57B63E1997CDCE00CD3DBF /* HW5ShapesViewController.xib in Resources */,
+				1D57B60D1997B3B600CD3DBF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D57B6121997B3B600CD3DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D57B61F1997B3B600CD3DBF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D57B5EF1997B3B600CD3DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D57B6321997BA9E00CD3DBF /* HW5GraphViewController.m in Sources */,
+				1D57B62D1997B58900CD3DBF /* HW5WindowController.m in Sources */,
+				1D0D0CD419A6910500319389 /* Utility.m in Sources */,
+				1D0D0CDE19A6925E00319389 /* Game.m in Sources */,
+				1D57B6361997BB8D00CD3DBF /* HW5GraphView.m in Sources */,
+				1D57B6491997D96E00CD3DBF /* HW5ArtViewController.m in Sources */,
+				1D57B6031997B3B600CD3DBF /* main.m in Sources */,
+				1D57B60A1997B3B600CD3DBF /* HW5AppDelegate.m in Sources */,
+				1D0D0CD819A6914D00319389 /* Item.m in Sources */,
+				1D57B63D1997CDCE00CD3DBF /* HW5ShapesViewController.m in Sources */,
+				1D57B6391997CDB800CD3DBF /* HW5ShapesView.m in Sources */,
+				1D23AFA71998332D007572A4 /* HW5ArtView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D57B6101997B3B600CD3DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D57B6211997B3B600CD3DBF /* HW5_AncilTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D57B6191997B3B600CD3DBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D57B5F21997B3B600CD3DBF /* HW5_Ancil */;
+			targetProxy = 1D57B6181997B3B600CD3DBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D57B5FF1997B3B600CD3DBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D57B6001997B3B600CD3DBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D57B6051997B3B600CD3DBF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D57B6061997B3B600CD3DBF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1D57B60B1997B3B600CD3DBF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D57B60C1997B3B600CD3DBF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1D57B61D1997B3B600CD3DBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D57B61E1997B3B600CD3DBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D57B6221997B3B600CD3DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1D57B6231997B3B600CD3DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1D57B6251997B3B600CD3DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HW5_Ancil/HW5_Ancil-Prefix.pch";
+				INFOPLIST_FILE = "HW5_Ancil/HW5_Ancil-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D57B6261997B3B600CD3DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HW5_Ancil/HW5_Ancil-Prefix.pch";
+				INFOPLIST_FILE = "HW5_Ancil/HW5_Ancil-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1D57B6281997B3B600CD3DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HW5_Ancil.app/Contents/MacOS/HW5_Ancil";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HW5_Ancil/HW5_Ancil-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HW5_AncilTests/HW5_AncilTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1D57B6291997B3B600CD3DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HW5_Ancil.app/Contents/MacOS/HW5_Ancil";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HW5_Ancil/HW5_Ancil-Prefix.pch";
+				INFOPLIST_FILE = "HW5_AncilTests/HW5_AncilTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D57B5EE1997B3B600CD3DBF /* Build configuration list for PBXProject "HW5_Ancil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D57B6221997B3B600CD3DBF /* Debug */,
+				1D57B6231997B3B600CD3DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D57B6241997B3B600CD3DBF /* Build configuration list for PBXNativeTarget "HW5_Ancil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D57B6251997B3B600CD3DBF /* Debug */,
+				1D57B6261997B3B600CD3DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D57B6271997B3B600CD3DBF /* Build configuration list for PBXNativeTarget "HW5_AncilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D57B6281997B3B600CD3DBF /* Debug */,
+				1D57B6291997B3B600CD3DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D57B5EB1997B3B600CD3DBF /* Project object */;
+}

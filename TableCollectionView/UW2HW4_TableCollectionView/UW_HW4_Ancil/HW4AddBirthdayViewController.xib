@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HW4AddBirthdayViewController">
+            <connections>
+                <outlet property="datePicker" destination="LmO-5Y-OSn" id="vtN-VS-eXQ"/>
+                <outlet property="firstNameTextField" destination="AoO-J2-o5r" id="Mmf-Sz-CYU"/>
+                <outlet property="lastNameTextField" destination="Feb-tR-ld5" id="DEB-I9-75Y"/>
+                <outlet property="toolbarHeightConstraint" destination="7eY-S4-81V" id="ZPG-ff-fNr"/>
+                <outlet property="view" destination="iN0-l3-epB" id="qfb-Sh-knT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d12-0f-2Cu">
+                    <rect key="frame" x="8" y="60" width="84" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="btm-WD-eWq">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="7eY-S4-81V"/>
+                    </constraints>
+                    <items>
+                        <barButtonItem systemItem="cancel" id="IVL-Gd-NfA">
+                            <connections>
+                                <action selector="userClickedCancel:" destination="-1" id="QTM-8S-pVA"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="iJQ-Tv-vmw"/>
+                        <barButtonItem title="Done" id="shg-ng-P1w">
+                            <connections>
+                                <action selector="userClickedDone:" destination="-1" id="YKi-r8-PAB"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter First Name" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="AoO-J2-o5r">
+                    <rect key="frame" x="126" y="56" width="466" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Last Name" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="Feb-tR-ld5">
+                    <rect key="frame" x="126" y="104" width="466" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LmO-5Y-OSn">
+                    <rect key="frame" x="0.0" y="155" width="600" height="162"/>
+                    <date key="date" timeIntervalSinceReferenceDate="-347086735.67137146">
+                        <!--1990-01-01 19:01:04 +0000-->
+                    </date>
+                </datePicker>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FDD-Of-ydy">
+                    <rect key="frame" x="8" y="108" width="83" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Feb-tR-ld5" firstAttribute="leading" secondItem="AoO-J2-o5r" secondAttribute="leading" id="49z-9k-P9b"/>
+                <constraint firstItem="d12-0f-2Cu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="65j-JU-s3n"/>
+                <constraint firstItem="Feb-tR-ld5" firstAttribute="top" secondItem="AoO-J2-o5r" secondAttribute="bottom" constant="18" id="76M-KJ-5Sy"/>
+                <constraint firstItem="LmO-5Y-OSn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7hp-Kl-gUt"/>
+                <constraint firstAttribute="trailing" secondItem="btm-WD-eWq" secondAttribute="trailing" id="JTD-Sb-Hhc"/>
+                <constraint firstItem="FDD-Of-ydy" firstAttribute="centerY" secondItem="Feb-tR-ld5" secondAttribute="centerY" id="JXK-MZ-Urs"/>
+                <constraint firstItem="btm-WD-eWq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="O7a-Ln-W41"/>
+                <constraint firstItem="AoO-J2-o5r" firstAttribute="top" secondItem="btm-WD-eWq" secondAttribute="bottom" constant="12" id="WPB-Xh-Emk"/>
+                <constraint firstItem="AoO-J2-o5r" firstAttribute="leading" secondItem="d12-0f-2Cu" secondAttribute="trailing" constant="34" id="aYt-f0-B6x"/>
+                <constraint firstItem="btm-WD-eWq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="bJK-Wi-hob"/>
+                <constraint firstAttribute="trailing" secondItem="LmO-5Y-OSn" secondAttribute="trailing" id="crB-gN-vL1"/>
+                <constraint firstItem="FDD-Of-ydy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="g1X-aq-064"/>
+                <constraint firstItem="LmO-5Y-OSn" firstAttribute="top" secondItem="Feb-tR-ld5" secondAttribute="bottom" constant="21" id="rjq-q1-6VA"/>
+                <constraint firstAttribute="trailing" secondItem="AoO-J2-o5r" secondAttribute="trailing" constant="8" id="s2o-5d-4SK"/>
+                <constraint firstItem="Feb-tR-ld5" firstAttribute="trailing" secondItem="AoO-J2-o5r" secondAttribute="trailing" id="uyP-xa-BQb"/>
+                <constraint firstItem="d12-0f-2Cu" firstAttribute="centerY" secondItem="AoO-J2-o5r" secondAttribute="centerY" id="wB1-kf-8u5"/>
+            </constraints>
+            <point key="canvasLocation" x="394" y="399"/>
+        </view>
+    </objects>
+</document>

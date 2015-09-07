@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="HW5WindowController">
+            <connections>
+                <outlet property="view" destination="se5-gp-TjO" id="Jq0-3O-eHg"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="N0a-Gc-cCW"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" animationBehavior="default" id="F0z-JX-Cv5">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="500" height="300"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <value key="minSize" type="size" width="500" height="300"/>
+            <view key="contentView" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="500" height="300"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </view>
+            <toolbar key="toolbar" implicitIdentifier="B998788F-6CEF-4401-BEEB-58F3F40A6E30" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="xXy-h0-zwB">
+                <allowedToolbarItems>
+                    <toolbarItem implicitItemIdentifier="E31A5A7C-2EDE-43A8-AD9C-474AC4722458" explicitItemIdentifier="GraphToolbarIdentifier" label="Graph" paletteLabel="Graph" image="NSMobileMe" id="vuB-CS-V9E">
+                        <connections>
+                            <action selector="toolbarClicked:" target="-2" id="gI0-dU-nTr"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="BF325EB5-7C82-4116-AED0-41A865DFA2FF" explicitItemIdentifier="ShapesToolbarIdentifier" label="Shapes" paletteLabel="Shapes" tag="1" image="NSApplicationIcon" id="zeq-JT-Hug">
+                        <connections>
+                            <action selector="toolbarClicked:" target="-2" id="VJD-uH-xe6"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="1F8E62B3-2641-44D6-969A-1456AC5E6464" explicitItemIdentifier="ArtToolbarIdentifier" label="Game" paletteLabel="Game" tag="-1" image="NSColorPanel" id="B1n-YU-xbg">
+                        <connections>
+                            <action selector="toolbarClicked:" target="-2" id="7qh-bH-75f"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="Hpr-F1-yov"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="YQH-L1-AZ2"/>
+                </allowedToolbarItems>
+                <defaultToolbarItems>
+                    <toolbarItem reference="vuB-CS-V9E"/>
+                    <toolbarItem reference="zeq-JT-Hug"/>
+                    <toolbarItem reference="B1n-YU-xbg"/>
+                    <toolbarItem reference="YQH-L1-AZ2"/>
+                </defaultToolbarItems>
+            </toolbar>
+            <connections>
+                <outlet property="delegate" destination="-2" id="Yac-3j-45v"/>
+            </connections>
+        </window>
+    </objects>
+    <resources>
+        <image name="NSApplicationIcon" width="128" height="128"/>
+        <image name="NSColorPanel" width="32" height="32"/>
+        <image name="NSMobileMe" width="32" height="32"/>
+    </resources>
+</document>

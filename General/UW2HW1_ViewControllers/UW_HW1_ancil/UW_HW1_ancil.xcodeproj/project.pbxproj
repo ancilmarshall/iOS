@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D287A3F19DD0D600008EE79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D287A3E19DD0D600008EE79 /* main.m */; };
+		1D287A4219DD0D600008EE79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D287A4119DD0D600008EE79 /* AppDelegate.m */; };
+		1D287A4A19DD0D600008EE79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D287A4919DD0D600008EE79 /* Images.xcassets */; };
+		1D287A4D19DD0D600008EE79 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D287A4B19DD0D600008EE79 /* LaunchScreen.xib */; };
+		1D287A5919DD0D610008EE79 /* UW_HW1_ancilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D287A5819DD0D610008EE79 /* UW_HW1_ancilTests.m */; };
+		1D287A6719DD0EAD0008EE79 /* DataTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D287A6519DD0EAD0008EE79 /* DataTabViewController.m */; };
+		1D287A6819DD0EAD0008EE79 /* DataTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D287A6619DD0EAD0008EE79 /* DataTabViewController.xib */; };
+		1D287A7119DD0F5E0008EE79 /* ColorTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D287A6F19DD0F5E0008EE79 /* ColorTabViewController.m */; };
+		1D287A7219DD0F5E0008EE79 /* ColorTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D287A7019DD0F5E0008EE79 /* ColorTabViewController.xib */; };
+		1D287A7519DD12F70008EE79 /* ModelData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D287A7419DD12F70008EE79 /* ModelData.m */; };
+		1D287A7919DD17CF0008EE79 /* BackgroundColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D287A7719DD17CF0008EE79 /* BackgroundColorViewController.m */; };
+		1D287A7A19DD17CF0008EE79 /* BackgroundColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D287A7819DD17CF0008EE79 /* BackgroundColorViewController.xib */; };
+		1D287A7D19DD3F180008EE79 /* UIColor+UWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D287A7B19DD3F180008EE79 /* UIColor+UWExtensions.m */; };
+		1D287A8119DD435D0008EE79 /* colors.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D287A7E19DD435D0008EE79 /* colors.png */; };
+		1D287A8219DD435D0008EE79 /* colors@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D287A7F19DD435D0008EE79 /* colors@2x.png */; };
+		1D287A8319DD435D0008EE79 /* colors@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D287A8019DD435D0008EE79 /* colors@3x.png */; };
+		1D287A8719DD43B30008EE79 /* data.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D287A8419DD43B20008EE79 /* data.png */; };
+		1D287A8819DD43B30008EE79 /* data@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D287A8519DD43B30008EE79 /* data@2x.png */; };
+		1D287A8919DD43B30008EE79 /* data@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D287A8619DD43B30008EE79 /* data@3x.png */; };
+		1D429D261A5D68650083C5AE /* HW1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1D429D251A5D68650083C5AE /* HW1.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D287A5319DD0D610008EE79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D287A3119DD0D600008EE79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D287A3819DD0D600008EE79;
+			remoteInfo = UW_HW1_ancil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D287A3919DD0D600008EE79 /* UW_HW1_ancil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UW_HW1_ancil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D287A3D19DD0D600008EE79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D287A3E19DD0D600008EE79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D287A4019DD0D600008EE79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D287A4119DD0D600008EE79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D287A4919DD0D600008EE79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D287A4C19DD0D600008EE79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1D287A5219DD0D610008EE79 /* UW_HW1_ancilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UW_HW1_ancilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D287A5719DD0D610008EE79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D287A5819DD0D610008EE79 /* UW_HW1_ancilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UW_HW1_ancilTests.m; sourceTree = "<group>"; };
+		1D287A6419DD0EAD0008EE79 /* DataTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTabViewController.h; sourceTree = "<group>"; };
+		1D287A6519DD0EAD0008EE79 /* DataTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTabViewController.m; sourceTree = "<group>"; };
+		1D287A6619DD0EAD0008EE79 /* DataTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataTabViewController.xib; sourceTree = "<group>"; };
+		1D287A6E19DD0F5E0008EE79 /* ColorTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTabViewController.h; sourceTree = "<group>"; };
+		1D287A6F19DD0F5E0008EE79 /* ColorTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTabViewController.m; sourceTree = "<group>"; };
+		1D287A7019DD0F5E0008EE79 /* ColorTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorTabViewController.xib; sourceTree = "<group>"; };
+		1D287A7319DD12F70008EE79 /* ModelData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelData.h; sourceTree = "<group>"; };
+		1D287A7419DD12F70008EE79 /* ModelData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelData.m; sourceTree = "<group>"; };
+		1D287A7619DD17CF0008EE79 /* BackgroundColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundColorViewController.h; sourceTree = "<group>"; };
+		1D287A7719DD17CF0008EE79 /* BackgroundColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundColorViewController.m; sourceTree = "<group>"; };
+		1D287A7819DD17CF0008EE79 /* BackgroundColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackgroundColorViewController.xib; sourceTree = "<group>"; };
+		1D287A7B19DD3F180008EE79 /* UIColor+UWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UWExtensions.m"; sourceTree = "<group>"; };
+		1D287A7C19DD3F180008EE79 /* UIColor+UWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+UWExtensions.h"; sourceTree = "<group>"; };
+		1D287A7E19DD435D0008EE79 /* colors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colors.png; path = Images.xcassets/colors.png; sourceTree = "<group>"; };
+		1D287A7F19DD435D0008EE79 /* colors@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "colors@2x.png"; path = "Images.xcassets/colors@2x.png"; sourceTree = "<group>"; };
+		1D287A8019DD435D0008EE79 /* colors@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "colors@3x.png"; path = "Images.xcassets/colors@3x.png"; sourceTree = "<group>"; };
+		1D287A8419DD43B20008EE79 /* data.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = data.png; path = Images.xcassets/data.png; sourceTree = "<group>"; };
+		1D287A8519DD43B30008EE79 /* data@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "data@2x.png"; path = "Images.xcassets/data@2x.png"; sourceTree = "<group>"; };
+		1D287A8619DD43B30008EE79 /* data@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "data@3x.png"; path = "Images.xcassets/data@3x.png"; sourceTree = "<group>"; };
+		1D429D251A5D68650083C5AE /* HW1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = HW1.pdf; path = ../../HW1.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D287A3619DD0D600008EE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D287A4F19DD0D610008EE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D287A3019DD0D600008EE79 = {
+			isa = PBXGroup;
+			children = (
+				1D287A3B19DD0D600008EE79 /* UW_HW1_ancil */,
+				1D287A5519DD0D610008EE79 /* UW_HW1_ancilTests */,
+				1D287A3A19DD0D600008EE79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D287A3A19DD0D600008EE79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D287A3919DD0D600008EE79 /* UW_HW1_ancil.app */,
+				1D287A5219DD0D610008EE79 /* UW_HW1_ancilTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D287A3B19DD0D600008EE79 /* UW_HW1_ancil */ = {
+			isa = PBXGroup;
+			children = (
+				1D287A4019DD0D600008EE79 /* AppDelegate.h */,
+				1D287A4119DD0D600008EE79 /* AppDelegate.m */,
+				1D287A8C19DD58DA0008EE79 /* Model */,
+				1D287A8D19DD58E20008EE79 /* Categories */,
+				1D287A8B19DD58BC0008EE79 /* ViewControllers */,
+				1D287A4919DD0D600008EE79 /* Images.xcassets */,
+				1D287A4B19DD0D600008EE79 /* LaunchScreen.xib */,
+				1D287A3C19DD0D600008EE79 /* Supporting Files */,
+				1D287A8A19DD58A60008EE79 /* images */,
+			);
+			path = UW_HW1_ancil;
+			sourceTree = "<group>";
+		};
+		1D287A3C19DD0D600008EE79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D429D251A5D68650083C5AE /* HW1.pdf */,
+				1D287A3D19DD0D600008EE79 /* Info.plist */,
+				1D287A3E19DD0D600008EE79 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D287A5519DD0D610008EE79 /* UW_HW1_ancilTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D287A5819DD0D610008EE79 /* UW_HW1_ancilTests.m */,
+				1D287A5619DD0D610008EE79 /* Supporting Files */,
+			);
+			path = UW_HW1_ancilTests;
+			sourceTree = "<group>";
+		};
+		1D287A5619DD0D610008EE79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D287A5719DD0D610008EE79 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D287A8A19DD58A60008EE79 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1D287A8419DD43B20008EE79 /* data.png */,
+				1D287A8519DD43B30008EE79 /* data@2x.png */,
+				1D287A8619DD43B30008EE79 /* data@3x.png */,
+				1D287A7E19DD435D0008EE79 /* colors.png */,
+				1D287A7F19DD435D0008EE79 /* colors@2x.png */,
+				1D287A8019DD435D0008EE79 /* colors@3x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		1D287A8B19DD58BC0008EE79 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D287A6E19DD0F5E0008EE79 /* ColorTabViewController.h */,
+				1D287A6F19DD0F5E0008EE79 /* ColorTabViewController.m */,
+				1D287A7019DD0F5E0008EE79 /* ColorTabViewController.xib */,
+				1D287A6419DD0EAD0008EE79 /* DataTabViewController.h */,
+				1D287A6519DD0EAD0008EE79 /* DataTabViewController.m */,
+				1D287A6619DD0EAD0008EE79 /* DataTabViewController.xib */,
+				1D287A7619DD17CF0008EE79 /* BackgroundColorViewController.h */,
+				1D287A7719DD17CF0008EE79 /* BackgroundColorViewController.m */,
+				1D287A7819DD17CF0008EE79 /* BackgroundColorViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1D287A8C19DD58DA0008EE79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D287A7319DD12F70008EE79 /* ModelData.h */,
+				1D287A7419DD12F70008EE79 /* ModelData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1D287A8D19DD58E20008EE79 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1D287A7B19DD3F180008EE79 /* UIColor+UWExtensions.m */,
+				1D287A7C19DD3F180008EE79 /* UIColor+UWExtensions.h */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D287A3819DD0D600008EE79 /* UW_HW1_ancil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D287A5C19DD0D610008EE79 /* Build configuration list for PBXNativeTarget "UW_HW1_ancil" */;
+			buildPhases = (
+				1D287A3519DD0D600008EE79 /* Sources */,
+				1D287A3619DD0D600008EE79 /* Frameworks */,
+				1D287A3719DD0D600008EE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UW_HW1_ancil;
+			productName = UW_HW1_ancil;
+			productReference = 1D287A3919DD0D600008EE79 /* UW_HW1_ancil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D287A5119DD0D610008EE79 /* UW_HW1_ancilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D287A5F19DD0D610008EE79 /* Build configuration list for PBXNativeTarget "UW_HW1_ancilTests" */;
+			buildPhases = (
+				1D287A4E19DD0D610008EE79 /* Sources */,
+				1D287A4F19DD0D610008EE79 /* Frameworks */,
+				1D287A5019DD0D610008EE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D287A5419DD0D610008EE79 /* PBXTargetDependency */,
+			);
+			name = UW_HW1_ancilTests;
+			productName = UW_HW1_ancilTests;
+			productReference = 1D287A5219DD0D610008EE79 /* UW_HW1_ancilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D287A3119DD0D600008EE79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Ancil Marshall";
+				TargetAttributes = {
+					1D287A3819DD0D600008EE79 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					1D287A5119DD0D610008EE79 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 1D287A3819DD0D600008EE79;
+					};
+				};
+			};
+			buildConfigurationList = 1D287A3419DD0D600008EE79 /* Build configuration list for PBXProject "UW_HW1_ancil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D287A3019DD0D600008EE79;
+			productRefGroup = 1D287A3A19DD0D600008EE79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D287A3819DD0D600008EE79 /* UW_HW1_ancil */,
+				1D287A5119DD0D610008EE79 /* UW_HW1_ancilTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D287A3719DD0D600008EE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D287A7219DD0F5E0008EE79 /* ColorTabViewController.xib in Resources */,
+				1D287A4D19DD0D600008EE79 /* LaunchScreen.xib in Resources */,
+				1D287A8819DD43B30008EE79 /* data@2x.png in Resources */,
+				1D429D261A5D68650083C5AE /* HW1.pdf in Resources */,
+				1D287A8719DD43B30008EE79 /* data.png in Resources */,
+				1D287A6819DD0EAD0008EE79 /* DataTabViewController.xib in Resources */,
+				1D287A8119DD435D0008EE79 /* colors.png in Resources */,
+				1D287A7A19DD17CF0008EE79 /* BackgroundColorViewController.xib in Resources */,
+				1D287A8319DD435D0008EE79 /* colors@3x.png in Resources */,
+				1D287A8919DD43B30008EE79 /* data@3x.png in Resources */,
+				1D287A4A19DD0D600008EE79 /* Images.xcassets in Resources */,
+				1D287A8219DD435D0008EE79 /* colors@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D287A5019DD0D610008EE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D287A3519DD0D600008EE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D287A7119DD0F5E0008EE79 /* ColorTabViewController.m in Sources */,
+				1D287A4219DD0D600008EE79 /* AppDelegate.m in Sources */,
+				1D287A6719DD0EAD0008EE79 /* DataTabViewController.m in Sources */,
+				1D287A3F19DD0D600008EE79 /* main.m in Sources */,
+				1D287A7919DD17CF0008EE79 /* BackgroundColorViewController.m in Sources */,
+				1D287A7D19DD3F180008EE79 /* UIColor+UWExtensions.m in Sources */,
+				1D287A7519DD12F70008EE79 /* ModelData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D287A4E19DD0D610008EE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D287A5919DD0D610008EE79 /* UW_HW1_ancilTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D287A5419DD0D610008EE79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D287A3819DD0D600008EE79 /* UW_HW1_ancil */;
+			targetProxy = 1D287A5319DD0D610008EE79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D287A4B19DD0D600008EE79 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D287A4C19DD0D600008EE79 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D287A5A19DD0D610008EE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D287A5B19DD0D610008EE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D287A5D19DD0D610008EE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UW_HW1_ancil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D287A5E19DD0D610008EE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UW_HW1_ancil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D287A6019DD0D610008EE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UW_HW1_ancilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UW_HW1_ancil.app/UW_HW1_ancil";
+			};
+			name = Debug;
+		};
+		1D287A6119DD0D610008EE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UW_HW1_ancilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UW_HW1_ancil.app/UW_HW1_ancil";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D287A3419DD0D600008EE79 /* Build configuration list for PBXProject "UW_HW1_ancil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D287A5A19DD0D610008EE79 /* Debug */,
+				1D287A5B19DD0D610008EE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D287A5C19DD0D610008EE79 /* Build configuration list for PBXNativeTarget "UW_HW1_ancil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D287A5D19DD0D610008EE79 /* Debug */,
+				1D287A5E19DD0D610008EE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D287A5F19DD0D610008EE79 /* Build configuration list for PBXNativeTarget "UW_HW1_ancilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D287A6019DD0D610008EE79 /* Debug */,
+				1D287A6119DD0D610008EE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D287A3119DD0D600008EE79 /* Project object */;
+}

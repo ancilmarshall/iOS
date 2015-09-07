@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Corner Radius</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+			<key>Key</key>
+			<string>cornerRadius</string>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+			<key>MinimumValue</key>
+			<integer>0</integer>
+			<key>MaximumValue</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Background Color</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>red</string>
+				<string>green</string>
+				<string>blue</string>
+			</array>
+			<key>Title</key>
+			<string>Background Color</string>
+			<key>Titles</key>
+			<array>
+				<string>red</string>
+				<string>green</string>
+				<string>blue</string>
+			</array>
+			<key>Key</key>
+			<string>backgroundColor</string>
+			<key>DefaultValue</key>
+			<string>red</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>
