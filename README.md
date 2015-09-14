@@ -13,11 +13,11 @@ The examples in this section are from the first course of the University of Wash
 - **TodoList**: UW1 Homework 2 - Add/delete items from a todo list. Use delegates for model change events
 
 ##### NSDocuments, NSWindowController, NSCoding
-- ** Profiles**: UW1 Homework 3 - A document based app, using NSKeyedArchiver for persistence
-- ** NotableCollection**: UW1 Homework 4 - A document based app using NSWindowController and NSCoding for persistence.
+- **Profiles**: UW1 Homework 3 - A document based app, using NSKeyedArchiver for persistence
+- **NotableCollection**: UW1 Homework 4 - A document based app using NSWindowController and NSCoding for persistence.
 
 ##### Views and Drawing
-- ** DrawingBoard**: UW1 Homework 5 - Using custom views, drawRect, UIBezierPath and drawing methods
+- **DrawingBoard**: UW1 Homework 5 - Using custom views, drawRect, UIBezierPath and drawing methods
 
 ##### NSCoding, Archives and Serialization
 
@@ -71,7 +71,7 @@ Here are topics from the thrid and final course in the University of Washington'
 - **CoreDataConcurrencyDemo**: UW3 Demo - 
 
 ##### App Life Cycle
-- **OperationsBackgroundingExcercise**: UW3 Exercise - 
+- **OperationsBackgroundingExcercise**: UW3 Exercise - Backgrounding an App, KVO and NSNotifications
 
 ##### Parsing JSON, XML
 
@@ -92,6 +92,15 @@ Here are topics from the thrid and final course in the University of Washington'
 ##### iCloud
 ##### CloudKit
 ##### Unit Tests
+
+## More programming practice
+
+##### Udacity
+- **MemeMe**: UIKitFundamentals class project from Udacity.
+
+##### Codility
+- **TapeEquilibrium**: Simple array algorithm to find minimum difference of the sum of two sections of an array. 
+
 
 ## Swift 
 ##### Swift Basics

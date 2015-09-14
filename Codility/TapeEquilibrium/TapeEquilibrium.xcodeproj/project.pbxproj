@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D56812F1BA6C2E80093811A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D56812E1BA6C2E80093811A /* main.m */; };
+		1D5681321BA6C2E80093811A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5681311BA6C2E80093811A /* AppDelegate.m */; };
+		1D5681351BA6C2E80093811A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5681341BA6C2E80093811A /* ViewController.m */; };
+		1D5681381BA6C2E80093811A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5681361BA6C2E80093811A /* Main.storyboard */; };
+		1D56813A1BA6C2E80093811A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5681391BA6C2E80093811A /* Images.xcassets */; };
+		1D56813D1BA6C2E80093811A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D56813B1BA6C2E80093811A /* LaunchScreen.xib */; };
+		1D5681491BA6C2E80093811A /* TapeEquilibriumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5681481BA6C2E80093811A /* TapeEquilibriumTests.m */; };
+		1D5681531BA6CAD20093811A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1D5681521BA6CAD20093811A /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D5681431BA6C2E80093811A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D5681211BA6C2E80093811A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D5681281BA6C2E80093811A;
+			remoteInfo = TapeEquilibrium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D5681291BA6C2E80093811A /* TapeEquilibrium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapeEquilibrium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D56812D1BA6C2E80093811A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D56812E1BA6C2E80093811A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D5681301BA6C2E80093811A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D5681311BA6C2E80093811A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D5681331BA6C2E80093811A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1D5681341BA6C2E80093811A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1D5681371BA6C2E80093811A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D5681391BA6C2E80093811A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D56813C1BA6C2E80093811A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1D5681421BA6C2E80093811A /* TapeEquilibriumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapeEquilibriumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5681471BA6C2E80093811A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D5681481BA6C2E80093811A /* TapeEquilibriumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapeEquilibriumTests.m; sourceTree = "<group>"; };
+		1D5681521BA6CAD20093811A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D5681261BA6C2E80093811A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D56813F1BA6C2E80093811A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D5681201BA6C2E80093811A = {
+			isa = PBXGroup;
+			children = (
+				1D56812B1BA6C2E80093811A /* TapeEquilibrium */,
+				1D5681451BA6C2E80093811A /* TapeEquilibriumTests */,
+				1D56812A1BA6C2E80093811A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D56812A1BA6C2E80093811A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D5681291BA6C2E80093811A /* TapeEquilibrium.app */,
+				1D5681421BA6C2E80093811A /* TapeEquilibriumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D56812B1BA6C2E80093811A /* TapeEquilibrium */ = {
+			isa = PBXGroup;
+			children = (
+				1D5681301BA6C2E80093811A /* AppDelegate.h */,
+				1D5681311BA6C2E80093811A /* AppDelegate.m */,
+				1D5681331BA6C2E80093811A /* ViewController.h */,
+				1D5681341BA6C2E80093811A /* ViewController.m */,
+				1D5681361BA6C2E80093811A /* Main.storyboard */,
+				1D5681391BA6C2E80093811A /* Images.xcassets */,
+				1D56813B1BA6C2E80093811A /* LaunchScreen.xib */,
+				1D56812C1BA6C2E80093811A /* Supporting Files */,
+				1D5681521BA6CAD20093811A /* README.md */,
+			);
+			path = TapeEquilibrium;
+			sourceTree = "<group>";
+		};
+		1D56812C1BA6C2E80093811A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D56812D1BA6C2E80093811A /* Info.plist */,
+				1D56812E1BA6C2E80093811A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D5681451BA6C2E80093811A /* TapeEquilibriumTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D5681481BA6C2E80093811A /* TapeEquilibriumTests.m */,
+				1D5681461BA6C2E80093811A /* Supporting Files */,
+			);
+			path = TapeEquilibriumTests;
+			sourceTree = "<group>";
+		};
+		1D5681461BA6C2E80093811A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D5681471BA6C2E80093811A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D5681281BA6C2E80093811A /* TapeEquilibrium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D56814C1BA6C2E80093811A /* Build configuration list for PBXNativeTarget "TapeEquilibrium" */;
+			buildPhases = (
+				1D5681251BA6C2E80093811A /* Sources */,
+				1D5681261BA6C2E80093811A /* Frameworks */,
+				1D5681271BA6C2E80093811A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapeEquilibrium;
+			productName = TapeEquilibrium;
+			productReference = 1D5681291BA6C2E80093811A /* TapeEquilibrium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D5681411BA6C2E80093811A /* TapeEquilibriumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D56814F1BA6C2E80093811A /* Build configuration list for PBXNativeTarget "TapeEquilibriumTests" */;
+			buildPhases = (
+				1D56813E1BA6C2E80093811A /* Sources */,
+				1D56813F1BA6C2E80093811A /* Frameworks */,
+				1D5681401BA6C2E80093811A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D5681441BA6C2E80093811A /* PBXTargetDependency */,
+			);
+			name = TapeEquilibriumTests;
+			productName = TapeEquilibriumTests;
+			productReference = 1D5681421BA6C2E80093811A /* TapeEquilibriumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D5681211BA6C2E80093811A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Ancil Marshall";
+				TargetAttributes = {
+					1D5681281BA6C2E80093811A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1D5681411BA6C2E80093811A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1D5681281BA6C2E80093811A;
+					};
+				};
+			};
+			buildConfigurationList = 1D5681241BA6C2E80093811A /* Build configuration list for PBXProject "TapeEquilibrium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D5681201BA6C2E80093811A;
+			productRefGroup = 1D56812A1BA6C2E80093811A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D5681281BA6C2E80093811A /* TapeEquilibrium */,
+				1D5681411BA6C2E80093811A /* TapeEquilibriumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D5681271BA6C2E80093811A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5681381BA6C2E80093811A /* Main.storyboard in Resources */,
+				1D56813D1BA6C2E80093811A /* LaunchScreen.xib in Resources */,
+				1D56813A1BA6C2E80093811A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5681401BA6C2E80093811A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D5681251BA6C2E80093811A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5681351BA6C2E80093811A /* ViewController.m in Sources */,
+				1D5681321BA6C2E80093811A /* AppDelegate.m in Sources */,
+				1D5681531BA6CAD20093811A /* README.md in Sources */,
+				1D56812F1BA6C2E80093811A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D56813E1BA6C2E80093811A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5681491BA6C2E80093811A /* TapeEquilibriumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D5681441BA6C2E80093811A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D5681281BA6C2E80093811A /* TapeEquilibrium */;
+			targetProxy = 1D5681431BA6C2E80093811A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D5681361BA6C2E80093811A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D5681371BA6C2E80093811A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D56813B1BA6C2E80093811A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D56813C1BA6C2E80093811A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D56814A1BA6C2E80093811A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D56814B1BA6C2E80093811A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D56814D1BA6C2E80093811A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapeEquilibrium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D56814E1BA6C2E80093811A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapeEquilibrium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D5681501BA6C2E80093811A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TapeEquilibriumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapeEquilibrium.app/TapeEquilibrium";
+			};
+			name = Debug;
+		};
+		1D5681511BA6C2E80093811A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TapeEquilibriumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapeEquilibrium.app/TapeEquilibrium";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D5681241BA6C2E80093811A /* Build configuration list for PBXProject "TapeEquilibrium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D56814A1BA6C2E80093811A /* Debug */,
+				1D56814B1BA6C2E80093811A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D56814C1BA6C2E80093811A /* Build configuration list for PBXNativeTarget "TapeEquilibrium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D56814D1BA6C2E80093811A /* Debug */,
+				1D56814E1BA6C2E80093811A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D56814F1BA6C2E80093811A /* Build configuration list for PBXNativeTarget "TapeEquilibriumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5681501BA6C2E80093811A /* Debug */,
+				1D5681511BA6C2E80093811A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D5681211BA6C2E80093811A /* Project object */;
+}

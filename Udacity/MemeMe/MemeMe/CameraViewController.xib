@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraViewController">
+            <connections>
+                <outlet property="bottomInput" destination="5XQ-cQ-fCo" id="Gea-5f-B1d"/>
+                <outlet property="imageView" destination="dfy-ig-MCF" id="61N-wG-jyF"/>
+                <outlet property="topInput" destination="Axd-Vv-rfM" id="GnV-Lx-btG"/>
+                <outlet property="view" destination="iN0-l3-epB" id="cDq-co-ByQ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dfy-ig-MCF">
+                    <rect key="frame" x="0.0" y="8" width="600" height="548"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="TOP" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Axd-Vv-rfM">
+                    <rect key="frame" x="8" y="80" width="584" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="BOTTOM" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5XQ-cQ-fCo">
+                    <rect key="frame" x="8" y="450" width="584" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="agF-4K-gzP">
+                    <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                    <items>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="3Ox-UD-lVy"/>
+                        <barButtonItem systemItem="camera" id="cMA-d7-PBj">
+                            <connections>
+                                <action selector="takePhoto:" destination="-1" id="ibt-XX-hlR"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="IsG-Qr-Izx"/>
+                        <barButtonItem title="Albums" id="RWZ-Y2-Nnv">
+                            <connections>
+                                <action selector="showPhotoAlbum:" destination="-1" id="5Lg-8c-r7Q"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="VSv-wU-Jpw"/>
+                    </items>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="dfy-ig-MCF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="Ebj-3z-Gty"/>
+                <constraint firstItem="agF-4K-gzP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GdY-wd-UdC"/>
+                <constraint firstItem="5XQ-cQ-fCo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Iho-wu-Ts6"/>
+                <constraint firstItem="Axd-Vv-rfM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="80" id="Ltb-M0-w8C"/>
+                <constraint firstItem="dfy-ig-MCF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="QIw-u0-LlO"/>
+                <constraint firstItem="Axd-Vv-rfM" firstAttribute="leading" secondItem="dfy-ig-MCF" secondAttribute="trailing" constant="-592" id="V8R-l0-tqW"/>
+                <constraint firstAttribute="trailing" secondItem="agF-4K-gzP" secondAttribute="trailing" id="Xn9-CZ-GHf"/>
+                <constraint firstItem="Axd-Vv-rfM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="ZMR-0x-JZz"/>
+                <constraint firstAttribute="bottom" secondItem="agF-4K-gzP" secondAttribute="bottom" id="Zag-w2-KUE"/>
+                <constraint firstItem="5XQ-cQ-fCo" firstAttribute="top" secondItem="dfy-ig-MCF" secondAttribute="bottom" constant="-106" id="e7M-wP-6u4"/>
+                <constraint firstItem="agF-4K-gzP" firstAttribute="top" secondItem="dfy-ig-MCF" secondAttribute="bottom" id="gew-gQ-92A"/>
+                <constraint firstAttribute="trailing" secondItem="5XQ-cQ-fCo" secondAttribute="trailing" constant="8" id="j83-dt-Py8"/>
+                <constraint firstAttribute="trailing" secondItem="dfy-ig-MCF" secondAttribute="trailing" id="joi-gX-oQO"/>
+                <constraint firstAttribute="trailing" secondItem="Axd-Vv-rfM" secondAttribute="trailing" constant="8" id="ukc-Fg-JYU"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="V8R-l0-tqW"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

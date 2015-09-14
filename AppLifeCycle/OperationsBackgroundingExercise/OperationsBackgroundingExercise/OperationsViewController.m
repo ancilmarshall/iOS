@@ -36,12 +36,15 @@ static NSUInteger OperationsViewControllerQueueKVOContext;
 {
     [super viewDidLoad];
     
+    //To perform work while in the background, use an NSOperationQueue to perform the work
     self.operationQueue = [[NSOperationQueue alloc] init];
     self.operationQueue.name = @"OperationsViewControllerQueue";
     self.operationQueue.maxConcurrentOperationCount = 1;
     
     self.backgroundOperationTask = UIBackgroundTaskInvalid; // initialize to invalid so we don't inadvertently kill real background tasks or fail assertions later
     
+    // Note how you can add self as an observer of the properties of the instance variable
+    // operationQueue. Two properties are observed, operaionCount and maxConcurrentOperationCount
     [self.operationQueue addObserver:self
                           forKeyPath:NSStringFromSelector(@selector(operationCount))
                              options:NSKeyValueObservingOptionInitial
@@ -51,6 +54,8 @@ static NSUInteger OperationsViewControllerQueueKVOContext;
                              options:NSKeyValueObservingOptionInitial
                              context:&OperationsViewControllerQueueKVOContext];
     
+    //Notice here that I choose to use Notifications to know when the app enters and exits the
+    //background. An alternative is to use the functions in AppDelegate
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(appDidBackground:)
                                                  name:UIApplicationDidEnterBackgroundNotification
@@ -92,7 +97,7 @@ static NSUInteger OperationsViewControllerQueueKVOContext;
     NSInteger operationCount = [sender tag] - OperationsViewControllerAddOperationTagOffset;
     for (NSInteger i = 0; i < operationCount; i++) {
         [self.operationQueue addOperationWithBlock:^{
-            sleep(1 + arc4random_uniform(3));
+            sleep(1 + arc4random_uniform(3)); //background work
         }];
     }
 }
@@ -106,6 +111,8 @@ static NSUInteger OperationsViewControllerQueueKVOContext;
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context;
 {
+    //This is a good practice to ensure that this file only observes paths that it cares about.
+    //It does this by using the unique context parameter
     if (context != &OperationsViewControllerQueueKVOContext) {
         return [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
     }
@@ -179,6 +186,10 @@ static NSUInteger OperationsViewControllerQueueKVOContext;
 
 #pragma mark App lifecycle
 
+//NOTES: Always take out backgroundtask and fill in the expiration handler at the same time
+// If we leave the background, then must end the background task and invalidate the token
+// The expiration handler does this automoatically if the job is completed while in the background
+
 - (void)appDidBackground:(NSNotification *)notification;
 {
     if ([self.operationQueue operationCount] > 0) {
@@ -196,6 +207,7 @@ static NSUInteger OperationsViewControllerQueueKVOContext;
 
 - (void)appWillForeground:(NSNotification *)notification;
 {
+    //first check if there is still a background task before ending and invalidating it
     if (self.backgroundOperationTask != UIBackgroundTaskInvalid) {
         OPERATION_LOG(@"App foregrounding; giving up background task");
         [[UIApplication sharedApplication] endBackgroundTask:self.backgroundOperationTask];
