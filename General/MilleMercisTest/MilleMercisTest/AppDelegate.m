@@ -31,7 +31,7 @@ static NSString * const AppDelegateBackgroundDownloadIdentifier = @"AppDelegateB
     //check if we need a background task, if so create it
     [self createBackgroundDownloadSessionIfNeeded];
     
-    //set viewcontroller
+    //set viedwcontroller
     self.imageViewController = viewController;
     
     NSURLSessionDownloadTask *downloadTask =

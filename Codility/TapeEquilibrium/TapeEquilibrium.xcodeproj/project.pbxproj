@@ -14,7 +14,7 @@
 		1D56813A1BA6C2E80093811A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5681391BA6C2E80093811A /* Images.xcassets */; };
 		1D56813D1BA6C2E80093811A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D56813B1BA6C2E80093811A /* LaunchScreen.xib */; };
 		1D5681491BA6C2E80093811A /* TapeEquilibriumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5681481BA6C2E80093811A /* TapeEquilibriumTests.m */; };
-		1D5681531BA6CAD20093811A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1D5681521BA6CAD20093811A /* README.md */; };
+		1DFD1B071BAAA9E0003A6C0D /* kitten3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DFD1B061BAAA9E0003A6C0D /* kitten3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		1D5681421BA6C2E80093811A /* TapeEquilibriumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapeEquilibriumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5681471BA6C2E80093811A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D5681481BA6C2E80093811A /* TapeEquilibriumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapeEquilibriumTests.m; sourceTree = "<group>"; };
-		1D5681521BA6CAD20093811A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1DFD1B061BAAA9E0003A6C0D /* kitten3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +83,7 @@
 		1D56812B1BA6C2E80093811A /* TapeEquilibrium */ = {
 			isa = PBXGroup;
 			children = (
+				1DFD1B061BAAA9E0003A6C0D /* kitten3.jpg */,
 				1D5681301BA6C2E80093811A /* AppDelegate.h */,
 				1D5681311BA6C2E80093811A /* AppDelegate.m */,
 				1D5681331BA6C2E80093811A /* ViewController.h */,
@@ -91,7 +92,6 @@
 				1D5681391BA6C2E80093811A /* Images.xcassets */,
 				1D56813B1BA6C2E80093811A /* LaunchScreen.xib */,
 				1D56812C1BA6C2E80093811A /* Supporting Files */,
-				1D5681521BA6CAD20093811A /* README.md */,
 			);
 			path = TapeEquilibrium;
 			sourceTree = "<group>";
@@ -202,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DFD1B071BAAA9E0003A6C0D /* kitten3.jpg in Resources */,
 				1D5681381BA6C2E80093811A /* Main.storyboard in Resources */,
 				1D56813D1BA6C2E80093811A /* LaunchScreen.xib in Resources */,
 				1D56813A1BA6C2E80093811A /* Images.xcassets in Resources */,
@@ -224,7 +225,6 @@
 			files = (
 				1D5681351BA6C2E80093811A /* ViewController.m in Sources */,
 				1D5681321BA6C2E80093811A /* AppDelegate.m in Sources */,
-				1D5681531BA6CAD20093811A /* README.md in Sources */,
 				1D56812F1BA6C2E80093811A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +422,7 @@
 				1D56814E1BA6C2E80093811A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D56814F1BA6C2E80093811A /* Build configuration list for PBXNativeTarget "TapeEquilibriumTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +431,7 @@
 				1D5681511BA6C2E80093811A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

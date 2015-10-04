@@ -8,6 +8,27 @@
 
 #import "ViewController.h"
 
+@interface Square : NSObject
+
+@end
+
+@implementation Square
+
+-(instancetype)init;
+{
+    self = [super init];
+    NSLog(@"Init");
+    return self;
+}
+
+-(void)doSomething;
+{
+    NSLog(@"DoSomething");
+}
+
+@end
+
+
 @interface ViewController ()
 
 @end
@@ -16,12 +37,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    Square* sq = nil;
+    [sq doSomething];
+    
+    NSArray* arr = [NSArray arrayWithObjects:nil];
+    
+    id myobjet;
+    
+    
+    //Square* sq = [[Square alloc] init];
+
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
