@@ -37,6 +37,7 @@ class ViewController: UIViewController {
             
         case .NotDetermined:
             locationManager.requestAlwaysAuthorization()
+            return
             
         case .AuthorizedAlways, .AuthorizedWhenInUse:
             break
@@ -54,6 +55,12 @@ extension ViewController: CLLocationManagerDelegate {
         
         beginLocationUpdatesIfPossible()
     }
+    
+    func locationManager(manager: CLLocationManager,
+        didFailWithError error: NSError){
+            print("Location manager failed with error = \(error)")
+    }
+    
     
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
